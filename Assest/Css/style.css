@@ -1,0 +1,1189 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    justify-content: center;
+}
+
+:root {
+    --button: #192574;
+    --heading: #192574;
+    --heading-1: #646CA1;
+    --para: #000000;
+}
+
+
+h1 {
+    font-size: 65px;
+    font-weight: 800;
+    line-height: 75px;
+    letter-spacing: -0.6px;
+    color: var(--heading);
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: auto;
+    letter-spacing: -0.4px;
+    color: var(--heading);
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: auto;
+    letter-spacing: -0.4px;
+    color: var(--heading);
+}
+
+p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: -0.4;
+    color: var(--para);
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.btn {
+    background-color: var(--button);
+    padding: 10px 30px;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.4;
+    text-align: center;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+/* ===========================================
+header section Start
+=========================================== */
+
+
+header {
+    background-color: #F2F2F2;
+    width: 100% auto;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--button);
+    padding: 10px 100px;
+}
+
+.offer-headline {
+    display: flex;
+    width: 70%;
+    text-align: center;
+    justify-content: right;
+    align-items: center;
+}
+
+.offer-headline p {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17px;
+}
+
+.top-bar-btn {
+    margin-left: 20px;
+    padding: 7px 15px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.top-number a {
+    text-align: right;
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+    font-style: none;
+    align-items: center;
+    width: auto;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.logo img {
+    width: auto;
+    height: auto;
+}
+
+.header-section {
+    display: flex;
+    padding: 10px 100px;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    align-items: center;
+}
+
+.menu-bar {
+    width: 80%;
+}
+
+.menu-bar ul {
+    display: flex;
+    justify-content: right;
+    margin-right: 70px;
+}
+
+.menu-bar ul li {
+    margin: 0 20px;
+}
+
+.menu-bar ul li a {
+    color: var(--para);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.search-bar {
+    width: auto;
+    justify-content: right;
+    border: 1px solid #000000;
+    border-radius: 7px;
+    align-items: center;
+}
+
+.search-bar input {
+    border: 0px;
+    background: transparent;
+    padding: 10px;
+}
+
+.search-bar button {
+    background: transparent;
+    border: 0;
+    padding-right: 10px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.search-bar button img {
+    /* margin-top: 0px; */
+    width: 20px;
+}
+
+.cart-icon i {
+    text-align: right;
+}
+
+/* ======================================================
+Hero section :start
+====================================================== */
+
+.hero-section {
+    background-image: url(/Sugarlif/Assest/Images/Banner\ image-1.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100% auto;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 0 350px;
+}
+
+.hero-text {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.hero-text p {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: -0.6px;
+    color: var(--heading);
+}
+
+
+/* ======================================================
+Second section :start
+====================================================== */
+
+
+.first-heading h2 {
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.first-heading h2 span {
+    color: var(--heading-1);
+}
+
+.container {
+    padding: 60px 100px;
+}
+
+.all-product {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    justify-content: center;
+}
+
+.product-category {
+    border: 1px solid #CBCFE1;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px 0 60px 0;
+    width: 25%;
+}
+
+.product-category img {
+    width: 100%;
+    height: auto;
+}
+
+.product-category .weight {
+    color: var(--heading-1);
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.product-category .product-price {
+    color: var(--heading-1);
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+/* =========================================================
+third section :start
+========================================================== */
+
+.third-section {
+    background-image: url(/Sugarlif/Assest/Images/Second\ Banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    padding: 60px 100px;
+    align-content: center;
+    align-items: center;
+
+}
+
+.third-heading h2 {
+    width: 100%;
+    padding-left: 50%;
+    text-align: left;
+
+}
+
+.third-para {
+    width: 100%;
+    padding-left: 50%;
+    margin: 20px 0;
+    padding-right: 14%;
+}
+
+.mini-section {
+    display: flex;
+    width: 100%;
+    margin: 20px 0;
+    padding-left: 50%;
+    align-items: center;
+    align-content: center;
+    padding-right: 7%;
+}
+
+.mini-section h3 {
+    padding-bottom: 5px;
+}
+
+.mini-section img {
+    padding-right: 15px;
+}
+
+/* =========================================================
+Fourth section :start
+========================================================== */
+
+.fourth-heading h2 {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.fourth-section-points {
+    display: flex;
+    columns: 6;
+    column-gap: 30px;
+    text-align: center;
+    justify-content: center;
+}
+
+.section-clm img {
+    width: auto;
+    height: auto;
+}
+
+.section-clm p {
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--heading);
+    letter-spacing: -0.4px;
+}
+
+/* =========================================================
+firth section :start
+========================================================== */
+
+.food-section {
+    background-color: #F0F1F4;
+    justify-content: center;
+}
+
+.low-high-food {
+    display: flex;
+    columns: 3;
+    justify-content: center;
+}
+
+.low-gi-food {
+    margin-right: 60px;
+}
+
+.low-gi-food li {
+    color: var(--heading);
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    align-items: center;
+    align-content: center;
+}
+
+.low-gi-food li img {
+    width: 20px;
+    height: auto;
+    color: var(--heading);
+    padding-right: 5px;
+}
+
+.high-gi-food {
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+.high-gi-food li {
+    color: var(--heading-1);
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    align-items: center;
+    align-content: center;
+}
+
+.high-gi-food li img {
+    width: 20px;
+    height: auto;
+    color: var(--heading);
+    padding-right: 5px;
+}
+
+.point-food {
+    margin-top: 20px;
+}
+
+.high-gi-food h2 {
+    color: var(--heading-1);
+}
+
+/* =========================================================
+Sixth section :start
+========================================================== */
+
+.sixth-section {
+    text-align: center;
+}
+
+.accordion {
+    background-color: transparent;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 70%;
+    border: 1px solid;
+    /* margin-bottom: 10px; */
+    border-radius: 2px;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+    width: 70%;
+    margin-left: 15%;
+    border: 1px solid;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    background-color: #e3e3e3;
+}
+
+.faq-heading {
+    margin-bottom: 30px;
+}
+
+
+/* =========================================================
+testimonial section :start
+========================================================== */
+
+.testimonial-section {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.testimonial {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.testimonial h3 {
+    padding: 10px 0;
+}
+
+/* =========================================================
+footer section :start
+========================================================== */
+
+.footer-section {
+    background-color: var(--button);
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    columns: 4;
+}
+
+.footer-menu ul {
+    flex-direction: column;
+}
+
+.footer-clm-1 {
+    width: 30%;
+    margin-right: 80px;
+}
+
+.footer-clm-2 {
+    width: 20%;
+}
+
+.footer-clm-3 {
+    width: 20%;
+}
+
+.footer-clm-4 {
+    width: 35%;
+}
+
+.footer-clm-1 p {
+    color: #fff;
+}
+
+.footer-menu ul li a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%;
+}
+
+.footer-clm-3 h3 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.footer-clm-2 h3 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.footer-clm-4 h3 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.footer-menu ul li {
+    text-decoration: none;
+    font-style: none;
+    width: 100%;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+.footer-clm-4 p {
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.footer-bar input {
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    width: 70%;
+}
+
+.footer-bar {
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.footer-bar button {
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.affiliate-app {
+    display: flex;
+    column-gap: 20px;
+    margin-top: 20px;
+}
+
+.affiliate-app li {
+    align-items: center;
+    display: flex;
+    color: #fff;
+}
+
+.affiliate-app li img {
+    margin-right: 10px;
+}
+
+
+/* =========================================================
+Conatct page | banner section :start
+========================================================== */
+
+.contact-us-banner {
+    background: url(/Sugarlif/Assest/Images/contactudbanner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 100%;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.contact-banner-text h1 {
+    color: #fff;
+}
+
+.contact-section {
+    justify-content: center;
+    display: flex;
+}
+
+.contact-information {
+    display: flex;
+    column-gap: 40px;
+    column-count: 3;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    width: 85%;
+}
+
+.box-info {
+    background-color: #EDF2E4;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 33.333%;
+    /* height: 300px; */
+    padding: 30px;
+}
+
+.box-info h2 {
+    color: black;
+    font-size: 25px;
+    padding: 10px 0;
+}
+
+.box-info i {
+    border: 1px solid #81C12A;
+    color: #81C12A;
+    padding: 20px;
+    border-radius: 36px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.phone-number {
+    padding: 45px 0;
+}
+
+
+
+.map-contact-form {
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+}
+
+.contact-form label {
+    display: none;
+}
+
+.contact-form input[type=text],
+[type=email],
+[type=textarea],
+select,
+textarea {
+    width: 100%;
+    /* display:block; */
+    padding: 15px;
+    border: 1px solid #b7b7b761;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 12px;
+    resize: vertical;
+    background-color: #f5f7f2;
+}
+
+.contact-form input[type=submit] {
+    background-image: -webkit-linear-gradient(0deg, rgb(118, 188, 2) 0%, rgb(244, 166, 1) 100%);
+    border-radius: 0px 20px 20px 20px;
+    color: white;
+    padding: 12px 40px;
+    border: none;
+    /* border-radius: 4px; */
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-image: -webkit-linear-gradient(0deg, rgb(244, 166, 1) 0%, rgb(118, 188, 2) 100%);
+}
+
+.contact-form h3 {
+    border-left: 3px solid #091971;
+    line-height: 18px;
+    padding: 0 10px;
+}
+
+.contact-form h2 {
+    color: #000000;
+    font-weight: 700;
+    padding: 20px 0;
+}
+
+
+/* =========================================================
+Products Us page | banner section :start
+========================================================== */
+
+
+.product-page-heading h2 {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+
+/* =========================================================
+About Us page | banner section :start
+========================================================== */
+
+.about-heading {
+    width: 45%;
+}
+
+.about-heading h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.about-heading h3 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.clm-2-about {
+    display: flex;
+}
+
+.about-content-info p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.about-img-1 img {
+    width: 650px;
+    margin-top: -20px;
+}
+
+.about-us-content-para {
+    background-color: #F4F7FE;
+}
+
+.about-us-para h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.about-us-para p {
+    margin-bottom: 20px;
+}
+
+.about-heading-last-section {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-heading-last-section h3 {
+    border-right: 3px solid #091971;
+}
+
+.global-discruption {
+    justify-content: center;
+
+}
+
+.box-3-section {
+    display: flex;
+    column-gap: 40px;
+    justify-content: center;
+    text-align: justify;
+    margin-top: 20px;
+    /* width: 85%; */
+}
+
+.box-points-global {
+    box-shadow: 2.5px 4.33px 15px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.box-points-global img {
+    background-image: -webkit-linear-gradient(0deg, rgb(9, 25, 158) 0%, rgb(47, 96, 210) 100%);
+    padding: 20px;
+    border-radius: 0 10px 10px 10px;
+    box-shadow: 2.5px 4.33px 15px 0px rgba(9, 25, 158, 0.2);
+    margin-bottom: 20px;
+}
+
+.box-2-section {
+    justify-content: center;
+    display: flex;
+
+}
+
+.box-4-section {
+    width: 30.2%;
+    justify-content: center;
+    display: flex;
+    margin-left: 52px;
+    margin-top: 30px;
+}
+ 
+/* .up, .down{
+    background-color: red;
+    display: inline-block;
+     margin: 10px; 
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+   text-align: center;
+} 
+
+.up{
+    border-top-left-radius: 56px;
+    border-top-right-radius: 56px;
+    margin-bottom: 50px;
+}   
+
+.down{
+    border-bottom-left-radius: 56px;
+    border-bottom-right-radius: 56px;
+}  */
+
+
+/* .onboarding {
+    display: flex;
+} */
+    
+
+
+/* .container-box-onboarding {
+    display: flex;
+    column-gap: 50px;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+} */
+
+
+/* .box-1{
+    display: flex;
+    border: 5px solid #B7F0FB;
+    border-radius: 100px;
+    background-color: #34D5FA;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 50px;
+    width: 65px;
+    height: 65px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.end-box-heading-2{
+    padding-top: 100px;
+}
+
+.end-box h3 {
+    margin-top: 130px;
+   
+}
+
+.Start-box p{
+    margin-bottom: 140px;
+    text-align: right;
+}
+.Start-box h3{
+    text-align: right;
+}
+
+.box-2{
+    border-color: #CBBEE9;
+    background-color: #5733B1;
+}
+
+.box-3{
+    border-color: #FBDFD1;
+    background-color: #FE8C6A;
+}
+
+.box-4{
+    border-color: #B1F0EF;
+    background-color: #00DFD2;
+}
+
+.box-5{
+    border-color: #B1F0EF;
+    background-color: #E51A52;
+} */
+
+
+
+
+
+
+/* home page */
+
+@media (max-width: 767px) {
+    .container {
+        padding: 25px 15px;
+    }
+
+    .top-bar {
+        width: 100%;
+        padding: 10px 10px;
+    }
+
+    .top-number {
+        display: none;
+    }
+
+    .offer-headline {
+        justify-content: space-between;
+        width: 100%;
+        text-align: left;
+    }
+
+    .offer-headline button {
+        padding: 5px 5px;
+        width: 30%;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .header-section {
+        display: none;
+    }
+
+    .hero-section {
+        background: url(/Sugarlif/Assest/Images/Banner\ image-1.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 50vh;
+        padding: 0;
+        /* display: flex; */
+        /* align-items: center; */
+        /* justify-content: left; */
+    }
+
+    .hero-text {
+        padding: 0;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 0px;
+    }
+
+    .hero-text h1 {
+        text-align: center;
+        font-size: 35px;
+        line-height: 30px;
+    }
+
+    .all-product {
+        display: flex;
+        flex-wrap: wrap;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: 30px, auto;
+        /* padding: 12px 0 0 0; */
+    }
+
+    .product-category {
+        width: calc(50% - 10px);
+        margin: 0;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .product-category button {
+        padding: 10px;
+    }
+
+    .first-heading h2 {
+        font-size: 30px;
+        padding: 0;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .third-section {
+        width: 100%;
+        height: auto;
+        padding: 25px 15px;
+    }
+
+    .third-heading {
+        width: 100%;
+        padding: 0;
+        /* margin: 25px 10px; */
+        margin: 0;
+    }
+
+    .third-heading h2 {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .third-para {
+        width: 100%;
+        padding: 0;
+        margin: 0 0px;
+        overflow: hidden;
+    }
+
+    .mini-section {
+        width: 100%;
+        padding: 0;
+        margin: 25px 10px;
+        display: block;
+    }
+
+    .fourth-section-points {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: 30px, auto;
+        padding: 12px 0 0 0;
+    }
+
+    .low-high-food {
+        flex-direction: column;
+    }
+
+    .low-gi-food {
+        margin: 0;
+    }
+
+    .gi-food-img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .high-gi-food {
+        margin: 0;
+        padding-top: 10px;
+    }
+
+    .accordion {
+        width: 100%;
+    }
+
+    .panel {
+        width: 100%;
+        margin: 0;
+        text-align: left;
+    }
+
+    .testimonial-section {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .footer {
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        row-gap: 25px;
+        display: grid;
+    }
+
+    .footer-clm-1,
+    .footer-clm-4 {
+        width: 100%;
+        margin: 0;
+    }
+
+    .footer-clm-2,
+    .footer-clm-3 {
+        width: 50%;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* products page */
+
+    .contact-us-banner {
+        width: 100%;
+        height: auto;
+    }
+
+    .contact-banner-text h1 {
+        font-size: 35px;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    .contact-form h2 {
+        font-size: 25px;
+    }
+
+    .clm-2-about {
+        flex-direction: column;
+    }
+
+    .about-img-1 img {
+        width: 100%;
+        margin: 0;
+    }
+
+    .box-3-section {
+        flex-direction: column;
+        row-gap: 15px;
+    }
+
+    .box-2-section {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .box-4-section {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    /* contact form  */
+
+    .contact-information {
+        flex-direction: column;
+        width: 100%;
+        row-gap: 20px;
+    }
+
+    .box-info {
+        width: 100%;
+    }
+
+    .map-contact-form {
+        flex-direction: column;
+    }
+
+    .map {
+        width: 100%;
+        display: none;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    .menu-bar ul {
+        margin: 0;
+    }
+}
+
+
+
+
